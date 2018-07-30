@@ -12,9 +12,7 @@
 - 在 tomcat的Arguments最后面加-Xms256m -Xmx512m -XX:PermSize=256M -XX:MaxPermSize=512M
 - 修改tomcat下ls.xml的docBase为自己的目录
 ### 2018.7.20
-- 运行中的jdk7+tomcat6
-  不运行的jdk6+tomcat5
-  系统环境变量为tomcat5
+- 运行中的jdk7+tomcat6 + 不运行的jdk6+tomcat5 + 系统环境变量为tomcat5
 ### 2018.7.23
 1.将E:\workspaceSVN\AssetLink\trunk\lib下所有jar包添加到WEB-INF下的lib文件夹中
 2.修改Tomcat下Classpath的User Entries为当前工程trunk\app_config\local
