@@ -24,7 +24,7 @@
 - 测试: **admin** / **eBao1234**
 
 ### 2018.7.27
--
+- Sql语句：
 ```
 select * from t_module;
 select * from t_module_url;
