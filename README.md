@@ -1,6 +1,5 @@
-[JVM](#7_27_2018)
 
-### 2018.7.17
+### 7_17_2018
 - 虚拟机:  paul.bi	    SHVM00813	172.30.4.134
 - 项目: http://172.25.17.39:8080/ls/loginPage.do
 - user:                      **paul**
@@ -9,20 +8,20 @@
 - TeamForge工作空间:    https://alm.ebaotech.com/sf/sfmain/do/myPage 
 - 项目测试文档:     https://test.ebaotech.com/SpiraTest
 
-### 2018.7.19
+### 7_19_2018
 - 修改jre:Default VM arguments  -Xms256m -Xmx512m
 - 在 tomcat的Arguments最后面加-Xms256m -Xmx512m -XX:PermSize=256M -XX:MaxPermSize=512M
 - 修改tomcat下ls.xml的docBase为自己的目录
-### 2018.7.20
+### 7_20_2018
 - 运行中的jdk7+tomcat6 + 不运行的jdk6+tomcat5 + 系统环境变量为tomcat5
-### 2018.7.23
+### 7_23_2018
 - 将E:\workspaceSVN\AssetLink\trunk\lib下所有jar包添加到WEB-INF下的lib文件夹中
 - 修改Tomcat下Classpath的User Entries为当前工程trunk\app_config\local
 - 登入p盘\\shdoc01\fs$
 - paul.bi@ebaotech.com Project Code : **7103698 - SL AL Maintenance**
 - PT2619	Paul Bi	SEA - SBM1 Segment - 2
 
-### 2018.7.26
+### 7_26_2018
 - 测试: **admin** / **eBao1234**
 
 ### 7_27_2018
