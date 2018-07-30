@@ -1,8 +1,8 @@
 ### 2018.7.17
 1. 虚拟机:  paul.bi	    SHVM00813	172.30.4.134
 2. 项目: http://172.25.17.39:8080/ls/loginPage.do
-3. user:                      paul
-  password:           eBao123
+3. user:                      *paul*
+   password:           *eBao123*
 4. 员工信息   http://staff.ebaotech.com/ls/mainMenu.do
 5. TeamForge工作空间:    https://alm.ebaotech.com/sf/sfmain/do/myPage 
 6. 项目测试文档:     https://test.ebaotech.com/SpiraTest
@@ -29,7 +29,7 @@ PT2619	Paul Bi	SEA - SBM1 Segment - 2
 测试:admin/eBao1234
 
 ### 2018.7.27
-1.
+- ```
 select * from t_module;
 select * from t_module_url;
 
@@ -71,3 +71,4 @@ select cm.policy_code,
    and cm.term_fix_type = tft.term_fix_type
    and cp.ls_ann_decis_date <=
        add_months(pkg_pub_app_context.F_GET_USER_LOCAL_TIME, 6)
+```       
