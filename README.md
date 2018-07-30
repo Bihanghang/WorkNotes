@@ -1,13 +1,11 @@
 ### 2018.7.17
-* 虚拟机:  paul.bi	    SHVM00813	172.30.4.134
-* 项目: http://172.25.17.39:8080/ls/loginPage.do
-* user:                      paul
+- 虚拟机:  paul.bi	    SHVM00813	172.30.4.134
+- 项目: http://172.25.17.39:8080/ls/loginPage.do
+- user:                      paul
   password:           eBao123
-* 员工信息   http://staff.ebaotech.com/ls/mainMenu.do
-4.
-TeamForge工作空间:    https://alm.ebaotech.com/sf/sfmain/do/myPage 
-5.
-项目测试文档:     https://test.ebaotech.com/SpiraTest
+- 员工信息   http://staff.ebaotech.com/ls/mainMenu.do
+- TeamForge工作空间:    https://alm.ebaotech.com/sf/sfmain/do/myPage 
+- 项目测试文档:     https://test.ebaotech.com/SpiraTest
 
 ### 2018.7.19
 1.修改jre:Default VM arguments  -Xms256m -Xmx512m
