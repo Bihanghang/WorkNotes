@@ -21,9 +21,10 @@
 - PT2619	Paul Bi	SEA - SBM1 Segment - 2
 
 ### 2018.7.26
-- 测试:**admin** / **eBao1234**
+- 测试: **admin** / **eBao1234**
 
 ### 2018.7.27
+-
 ```
 select * from t_module;
 select * from t_module_url;
