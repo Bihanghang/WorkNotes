@@ -14,19 +14,17 @@
 ### 2018.7.20
 - 运行中的jdk7+tomcat6 + 不运行的jdk6+tomcat5 + 系统环境变量为tomcat5
 ### 2018.7.23
-1.将E:\workspaceSVN\AssetLink\trunk\lib下所有jar包添加到WEB-INF下的lib文件夹中
-2.修改Tomcat下Classpath的User Entries为当前工程trunk\app_config\local
-3.登入p盘\\shdoc01\fs$
-4. paul.bi@ebaotech.com
-   Project Code : 7103698 - SL AL Maintenance
-PT2619	Paul Bi	SEA - SBM1 Segment - 2
+- 将E:\workspaceSVN\AssetLink\trunk\lib下所有jar包添加到WEB-INF下的lib文件夹中
+- 修改Tomcat下Classpath的User Entries为当前工程trunk\app_config\local
+- 登入p盘\\shdoc01\fs$
+- paul.bi@ebaotech.com Project Code : **7103698 - SL AL Maintenance**
+- PT2619	Paul Bi	SEA - SBM1 Segment - 2
 
 ### 2018.7.26
-1.
-测试:admin/eBao1234
+- 测试:**admin** / **eBao1234**
 
 ### 2018.7.27
-- ```
+```
 select * from t_module;
 select * from t_module_url;
 
