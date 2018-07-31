@@ -78,3 +78,10 @@ slcl_main_dev/slcl_main_devpwd@g22u1
 slcl_ddm/slcl_ddmpwd@o29g21 
 ```
 - 修复的发布版本:**Main>V1.03.828**
+- eclipse脚本存放路径:plsql/dbscript
+- DDM存放路径:C:\Program Files (x86)\Data Dictionary Maintenance
+- junit打了断点之后不报错
+- DDM生成脚本要看一下，可能还没有更新数据库
+- DDM 上传comment形式 **[artf527545]Complete - task artf527545: 3548: Cannot find recievable to confirm for policy 4905165874**
+
+
