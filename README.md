@@ -69,10 +69,12 @@ select cm.policy_code,
    and cp.ls_ann_decis_date <=
        add_months(pkg_pub_app_context.F_GET_USER_LOCAL_TIME, 6)
 ```       
-###7/31/2018
+### 7/31/2018
+- DDM：
 ```
 -------SLCL_MAIN_DEV-----
 slcl_main_dev/slcl_main_devpwd@g22u1
 --------SL CL DDM-----
 slcl_ddm/slcl_ddmpwd@o29g21 
 ```
+- 修复的发布版本:**Main>V1.03.828**
