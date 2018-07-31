@@ -70,7 +70,7 @@ select cm.policy_code,
        add_months(pkg_pub_app_context.F_GET_USER_LOCAL_TIME, 6)
 ```       
 ### 7/31/2018
-- DDM：
+- DDM：粘贴在configuration中
 ```
 -------SLCL_MAIN_DEV-----
 slcl_main_dev/slcl_main_devpwd@g22u1
