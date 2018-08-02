@@ -104,4 +104,4 @@ select * from t_string_resource t where t.org_table = 'T_CUSTOMER_PH_ORGAN';
 --Teamforge (AssetLink / Documents / Root Folder / 02-Analysis&Design / Script /)
 ```
 - 修改t_party_display_config这张表下FIELD_NAME的PEP,PARTY_TYPE为1表示只在individual下显示，2表示organization,3表示全显示.
-
+- PL/SQL查询 Find Database Objects Text to find:pep 勾选Package Bodies , Triggers
