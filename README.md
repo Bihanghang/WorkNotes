@@ -83,5 +83,25 @@ slcl_ddm/slcl_ddmpwd@o29g21
 - junit打了断点之后不报错
 - DDM生成脚本要看一下，可能还没有更新数据库
 - DDM 上传comment形式 **[artf527545]Complete - task artf527545: 3548: Cannot find recievable to confirm for policy 4905165874**
+### 8/2/2018
+- sql:
+```
+--3527
+--party
+select * from t_party_display_config t where t.id = 10;
+select t.pep, t.pep_comment, t.* from t_customer t where t.pep is not null;
+select t.pep, t.pep_comment, t.* from t_company_customer t where t.pep is not null;
 
+--Query
+select t.*, t.rowid from t_query_table_extend t where t.table_name = 'T_CUSTOMER_PH_ORGAN';
+select * from t_query_column_extend t where t.table_name = 'T_CUSTOMER_PH_ORGAN';
+select * from t_string_resource t where t.org_table = 'T_CUSTOMER_PH_ORGAN';
+
+--Risk & compliance
+--PKG_LS_LC.P_CHECK_POLICY_PEP
+
+--Report
+--Teamforge (AssetLink / Documents / Root Folder / 02-Analysis&Design / Script /)
+```
+- 修改t_party_display_config这张表下FIELD_NAME的PEP,PARTY_TYPE为1表示只在individual下显示，2表示organization,3表示全显示.
 
