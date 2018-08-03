@@ -107,3 +107,7 @@ select * from t_string_resource t where t.org_table = 'T_CUSTOMER_PH_ORGAN';
 - PL/SQL查询 Find Database Objects Text to find:pep 勾选Package Bodies , Triggers
 - 这样的查询结果是找不到页面的，由数据库表直接拼凑出来的
 ![](https://raw.githubusercontent.com/Bihanghang/MarkDown/master/MarkDownPictures/SearchResult.PNG)
+### 8/3/2018
+- 通过structs配置文件去找对应的action
+
+
