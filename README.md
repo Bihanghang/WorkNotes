@@ -93,9 +93,9 @@ select t.pep, t.pep_comment, t.* from t_customer t where t.pep is not null;
 select t.pep, t.pep_comment, t.* from t_company_customer t where t.pep is not null;
 
 --Query
-select t.*, t.rowid from t_query_table_extend t where t.table_name = 'T_CUSTOMER_PH_ORGAN';
-select * from t_query_column_extend t where t.table_name = 'T_CUSTOMER_PH_ORGAN';
-select * from t_string_resource t where t.org_table = 'T_CUSTOMER_PH_ORGAN';
+select t.*, t.rowid from t_query_table_extend t where t.table_name = 'T_CUSTOMER_PH_ORGAN';(内容)
+select * from t_query_column_extend t where t.table_name = 'T_CUSTOMER_PH_ORGAN';(字段)
+select * from t_string_resource t where t.org_table = 'T_CUSTOMER_PH_ORGAN';(字段的形容）
 
 --Risk & compliance
 --PKG_LS_LC.P_CHECK_POLICY_PEP
