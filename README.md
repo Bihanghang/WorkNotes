@@ -109,5 +109,7 @@ select * from t_string_resource t where t.org_table = 'T_CUSTOMER_PH_ORGAN';
 ![](https://raw.githubusercontent.com/Bihanghang/MarkDown/master/MarkDownPictures/SearchResult.PNG)
 ### 8/3/2018
 - 通过structs配置文件去找对应的action
+### 8/6/2018
+- 修改文件的时候要把对应的log文件也改掉
 
 
