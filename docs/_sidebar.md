@@ -1,2 +1,3 @@
 * [dd理模式.md](/代理模式.md)
-* [java](/Java)
+* [java](/Java/)
+* [kk](/Java/java笔记.md)
