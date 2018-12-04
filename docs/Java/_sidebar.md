@@ -1,3 +1,3 @@
-* [javaCore](java/javaCore.md)
-* [java枚举](java/ava枚举.md)
-* [java笔记](java/java笔记.md)
+* [javaCore](/javaCore.md)
+* [java枚举](/ava枚举.md)
+* [java笔记](/java笔记.md)
